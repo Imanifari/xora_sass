@@ -1,4 +1,5 @@
 import "./App.css";
+import Download from "./sections/Download";
 import Faq from "./sections/Faq";
 import Features from "./sections/Features";
 import Header from "./sections/Header";
@@ -15,6 +16,7 @@ function App() {
       <Pricing />
       <Faq />
       <Testimonials />
+      <Download />
     </main>
   );
 }
