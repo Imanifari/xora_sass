@@ -19,7 +19,7 @@ const FaqItem = ({ item, index }) => {
           </div>
           <div
             className={clsx(
-              "h-6 text-p4 transition-colors duration-500 max-md:flex max-md:min-h-20 max-md:items-center",
+              "h6 text-p4 transition-colors duration-500 max-md:flex max-md:min-h-20 max-md:items-center",
               active && "max-lg:text-p1"
             )}
           >
